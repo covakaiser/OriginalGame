@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{3E9F841F-DE5E-EB72-94E5-1B483CC6010E}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MidiPlayer.cs">
+    <Files>
+      <File FileName="Assets/playerscript.cs" Line="8" Column="20" />
+      <File FileName="Assets/wallcreater.cs" />
+      <File FileName="Assets/SmfLite.cs" Line="105" Column="17" />
+      <File FileName="Assets/MidiPlayer.cs" Line="16" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="dfcf67b8-2f90-4372-991c-080e7109e24c" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
