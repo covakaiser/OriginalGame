@@ -63,22 +63,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\midi\Packages\jp.keijiro.klak.timeline.midi\Runtime\Internal\ControlAction.cs" />
-    <Compile Include="Assets\midi\Packages\jp.keijiro.klak.timeline.midi\Runtime\Internal\IPropertyCollectorExtension.cs" />
-    <Compile Include="Assets\midi\Packages\jp.keijiro.klak.timeline.midi\Runtime\Internal\MidiSignalPool.cs" />
-    <Compile Include="Assets\midi\Packages\jp.keijiro.klak.timeline.midi\Runtime\MidiAnimation.cs" />
-    <Compile Include="Assets\midi\Packages\jp.keijiro.klak.timeline.midi\Runtime\MidiAnimationAsset.cs" />
-    <Compile Include="Assets\midi\Packages\jp.keijiro.klak.timeline.midi\Runtime\MidiAnimationMixer.cs" />
-    <Compile Include="Assets\midi\Packages\jp.keijiro.klak.timeline.midi\Runtime\MidiAnimationTrack.cs" />
-    <Compile Include="Assets\midi\Packages\jp.keijiro.klak.timeline.midi\Runtime\MidiControl.cs" />
-    <Compile Include="Assets\midi\Packages\jp.keijiro.klak.timeline.midi\Runtime\MidiEvent.cs" />
-    <Compile Include="Assets\midi\Packages\jp.keijiro.klak.timeline.midi\Runtime\MidiFileAsset.cs" />
-    <Compile Include="Assets\midi\Packages\jp.keijiro.klak.timeline.midi\Runtime\MidiSignal.cs" />
-    <Compile Include="Assets\midi\Packages\jp.keijiro.klak.timeline.midi\Runtime\MidiSignalReceiver.cs" />
-    <Compile Include="Assets\playerscript.cs" />
-    <Compile Include="Assets\wallcreater.cs" />
-    <None Include="Assets\midi\ProjectSettings\ProjectVersion.txt" />
-    <None Include="Assets\midi\Packages\jp.keijiro.klak.timeline.midi\Runtime\Klak.Timeline.Midi.asmdef" />
+    <Compile Include="Assets\script\CSVWriter.cs" />
+    <Compile Include="Assets\script\cubecreater.cs" />
+    <Compile Include="Assets\script\enemyscript.cs" />
+    <Compile Include="Assets\script\GameController.cs" />
+    <Compile Include="Assets\script\GameUtil.cs" />
+    <Compile Include="Assets\script\NotesScript.cs" />
+    <Compile Include="Assets\script\NotesTimingMaker.cs" />
+    <Compile Include="Assets\script\playerscript.cs" />
+    <Compile Include="Assets\script\wallcreater.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/kobayashidaisuke/Desktop/UnityProject/OriginalGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
