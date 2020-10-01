@@ -35,6 +35,7 @@ public class GameController : MonoBehaviour
 
     void Update()
     {
+
         if (_isPlaying)
         {
             CheckNextNotes();
@@ -63,7 +64,7 @@ public class GameController : MonoBehaviour
     void SpawnNotes(int num)
     {
         Instantiate(notes[num],
-            new Vector3(-4.0f + (2.0f * num), 10.0f, 0),
+            new Vector3(20, 1, 0),
             Quaternion.identity);
     }
 
