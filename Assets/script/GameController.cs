@@ -61,7 +61,7 @@ public class GameController : MonoBehaviour
     void SpawnNotes(int num)
     {
         Instantiate(notes[num],
-            new Vector3(20.0f , 3.0f * num, 0),
+            new Vector3(20.0f , 2.0f * num, 0),
             Quaternion.identity);
     }
 

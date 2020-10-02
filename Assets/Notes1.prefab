@@ -135,8 +135,6 @@ GameObject:
   - component: {fileID: 215659424368446174}
   - component: {fileID: 1122208887913957931}
   - component: {fileID: 6629496773425738196}
-  - component: {fileID: 4841803916213794269}
-  - component: {fileID: 7968439345605393659}
   m_Layer: 0
   m_Name: scorecube
   m_TagString: score
@@ -152,8 +150,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6836798210152066452}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.005, y: -1.35, z: 0}
-  m_LocalScale: {x: 1, y: 1.6625, z: 1}
+  m_LocalPosition: {x: 0.005, y: 1.38, z: 0}
+  m_LocalScale: {x: 0.90586, y: 1.5059923, z: 0.90586}
   m_Children: []
   m_Father: {fileID: 4144385558798826702}
   m_RootOrder: 0
@@ -232,30 +230,3 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4841803916213794269
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6836798210152066452}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f63b6a4892b0245ee8ebdcd090cb5a42, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &7968439345605393659
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6836798210152066452}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fc89fde93a5c43b58411683298ce421, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  score: 0
-  scoretext: {fileID: 9161241442824199892, guid: 114d394bea3084af6b4e6d96018d6291,
-    type: 3}

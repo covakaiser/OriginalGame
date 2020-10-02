@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class playerscript : MonoBehaviour
@@ -12,6 +13,7 @@ public class playerscript : MonoBehaviour
 
     public int score = 0;
     public GameObject scoretext;
+    public GameObject HPtext;
 
     // Start is called before the first frame update
     void Start()
@@ -29,7 +31,7 @@ public class playerscript : MonoBehaviour
         }
         if (playerHP == 0)
         {
-            Debug.Log("gameover");
+            SceneManager.LoadScene("Gameover");
         }
 
     }
@@ -38,9 +40,10 @@ public class playerscript : MonoBehaviour
         if (other.CompareTag("Enemy"))
         {
             playerHP--;
-            Debug.Log(playerHP);
             Destroy(other.gameObject);
+            HPtext.GetComponent<Text>().text = "HP:" + playerHP.ToString();
         }
+
         if (other.CompareTag("score"))
         {
             score++;
