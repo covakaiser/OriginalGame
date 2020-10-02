@@ -16,5 +16,8 @@ public class enemyscript : MonoBehaviour
     void Update()
     {
         transform.position += new Vector3(-speed * Time.deltaTime, 0, 0);
+
+
     }
+
 }

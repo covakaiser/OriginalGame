@@ -22,9 +22,7 @@ public class GameController : MonoBehaviour
     private bool _isPlaying = false;
     public GameObject startButton;
 
-    public Text scoreText;
-    private int _score = 0;
-
+   
     void Start()
     {
         _audioSource = GameObject.Find("GameMusic").GetComponent<AudioSource>();
@@ -39,7 +37,6 @@ public class GameController : MonoBehaviour
         if (_isPlaying)
         {
             CheckNextNotes();
-            scoreText.text = _score.ToString();
         }
 
     }
@@ -64,7 +61,7 @@ public class GameController : MonoBehaviour
     void SpawnNotes(int num)
     {
         Instantiate(notes[num],
-            new Vector3(20, 1, 0),
+            new Vector3(20.0f , 3.0f * num, 0),
             Quaternion.identity);
     }
 
@@ -96,7 +93,5 @@ public class GameController : MonoBehaviour
     {
         Debug.Log("Line:" + num + " good!");
         Debug.Log(GetMusicTime());
-
-        _score++;
     }
 }

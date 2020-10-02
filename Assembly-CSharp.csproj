@@ -70,6 +70,7 @@
     <Compile Include="Assets\script\NotesScript.cs" />
     <Compile Include="Assets\script\NotesTimingMaker.cs" />
     <Compile Include="Assets\script\playerscript.cs" />
+    <Compile Include="Assets\script\scorescript.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/kobayashidaisuke/Desktop/UnityProject/OriginalGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
