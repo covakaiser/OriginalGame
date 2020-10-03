@@ -3,6 +3,7 @@ using System.Collections;
 using System.IO;
 using System;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
@@ -44,8 +45,8 @@ public class GameController : MonoBehaviour
     public void StartGame()
     {
         startButton.SetActive(false);
-        _startTime = Time.time;
         _audioSource.Play();
+        _startTime = Time.time;
         _isPlaying = true;
     }
 
@@ -61,7 +62,7 @@ public class GameController : MonoBehaviour
     void SpawnNotes(int num)
     {
         Instantiate(notes[num],
-            new Vector3(20.0f , 2.0f * num, 0),
+            new Vector3(13.0f , 2.0f * num, 0),
             Quaternion.identity);
     }
 
@@ -94,4 +95,5 @@ public class GameController : MonoBehaviour
         Debug.Log("Line:" + num + " good!");
         Debug.Log(GetMusicTime());
     }
+
 }

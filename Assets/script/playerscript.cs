@@ -24,7 +24,6 @@ public class playerscript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         if (Input.GetKeyDown(KeyCode.Space))
         {
             GetComponent<Rigidbody>().velocity += new Vector3(0, jump, 0);

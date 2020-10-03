@@ -2,22 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class enemyscript : MonoBehaviour
+public class DestroyScript : MonoBehaviour
 {
-    float speed = 16f;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+ 
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position += new Vector3(-speed * Time.deltaTime, 0, 0);
-
-
+        
     }
-
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Enemy"))
+        {
+            Destroy(other.gameObject);
+        }
+    }
 }
