@@ -9,6 +9,7 @@ TagManager:
   - Key
   - Enemy
   - score
+  - wall
   layers:
   - Default
   - TransparentFX

@@ -65,12 +65,14 @@
   <ItemGroup>
     <Compile Include="Assets\script\CSVWriter.cs" />
     <Compile Include="Assets\script\DestroyScript.cs" />
+    <Compile Include="Assets\script\Ei.cs" />
     <Compile Include="Assets\script\enemyscript.cs" />
     <Compile Include="Assets\script\GameController.cs" />
     <Compile Include="Assets\script\GameUtil.cs" />
     <Compile Include="Assets\script\NotesScript.cs" />
     <Compile Include="Assets\script\NotesTimingMaker.cs" />
     <Compile Include="Assets\script\playerscript.cs" />
+    <Compile Include="Assets\script\Resultscore.cs" />
     <Compile Include="Assets\script\Retryscript.cs" />
     <Compile Include="Assets\script\Wallscript.cs" />
     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\AutoBlink.cs" />

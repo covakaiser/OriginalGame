@@ -1,18 +1,20 @@
 ﻿<Properties StartupConfiguration="{3E9F841F-DE5E-EB72-94E5-1B483CC6010E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/Wallscript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/Resultscore.cs">
     <Files>
-      <File FileName="Assets/script/NotesTimingMaker.cs" Line="40" Column="31" />
-      <File FileName="Assets/script/playerscript.cs" Line="26" Column="6" />
-      <File FileName="Assets/script/GameController.cs" Line="65" Column="27" />
-      <File FileName="Assets/script/CSVWriter.cs" Line="13" Column="9" />
-      <File FileName="Assets/Resources/CSV/TestTiming.csv" Line="1" Column="1" />
-      <File FileName="Assets/script/NotesScript.cs" Line="53" Column="2" />
-      <File FileName="Assets/script/GameUtil.cs" Line="14" Column="19" />
-      <File FileName="Assets/script/enemyscript.cs" Line="7" Column="23" />
-      <File FileName="Library/PackageCache/jp.keijiro.klak.timeline.midi@1.0.3/Editor/MidiAnimationAssetEditor.cs" Line="20" Column="1" />
-      <File FileName="Assets/script/DestroyScript.cs" Line="19" Column="11" />
-      <File FileName="Assets/script/Retryscript.cs" Line="23" Column="10" />
-      <File FileName="Assets/script/Wallscript.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/NotesTimingMaker.cs" Line="40" Column="31" IsPinned="True" />
+      <File FileName="Assets/script/Wallscript.cs" Line="24" Column="78" />
+      <File FileName="Assets/script/playerscript.cs" Line="67" Column="22" />
+      <File FileName="Assets/script/GameController.cs" Line="97" Column="6" />
+      <File FileName="Assets/script/CSVWriter.cs" />
+      <File FileName="Assets/Resources/CSV/TestTiming.csv" />
+      <File FileName="Assets/script/NotesScript.cs" />
+      <File FileName="Assets/script/GameUtil.cs" />
+      <File FileName="Assets/script/enemyscript.cs" />
+      <File FileName="Library/PackageCache/jp.keijiro.klak.timeline.midi@1.0.3/Editor/MidiAnimationAssetEditor.cs" />
+      <File FileName="Assets/script/DestroyScript.cs" />
+      <File FileName="Assets/script/Retryscript.cs" />
+      <File FileName="Assets/script/Ei.cs" Line="18" Column="48" />
+      <File FileName="Assets/script/Resultscore.cs" Line="8" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

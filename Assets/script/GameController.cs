@@ -95,5 +95,4 @@ public class GameController : MonoBehaviour
         Debug.Log("Line:" + num + " good!");
         Debug.Log(GetMusicTime());
     }
-
 }
