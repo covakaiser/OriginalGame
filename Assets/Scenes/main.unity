@@ -1122,7 +1122,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Score:'
+  m_Text: Score:0
 --- !u!222 &1261594849
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1386,7 +1386,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHP: 5
   enemy: {fileID: 0}
-  score: 0
   scoretext: {fileID: 1261594846}
   HPtext: {fileID: 1449689069}
 --- !u!1 &1449689069
@@ -1494,7 +1493,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHP: 5
   enemy: {fileID: 0}
-  score: 0
   scoretext: {fileID: 1261594846}
   HPtext: {fileID: 1449689069}
 --- !u!54 &1729554044
