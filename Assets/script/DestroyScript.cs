@@ -22,5 +22,9 @@ public class DestroyScript : MonoBehaviour
         {
             Destroy(other.gameObject);
         }
+        if (other.CompareTag("wall"))
+        {
+            Destroy(other.gameObject);
+        }
     }
 }

@@ -63,21 +63,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\midi\Packages\jp.keijiro.klak.timeline.midi\Editor\CoreEditorUtils.cs" />
-    <Compile Include="Assets\midi\Packages\jp.keijiro.klak.timeline.midi\Editor\MidiAnimationAssetEditor.cs" />
-    <Compile Include="Assets\midi\Packages\jp.keijiro.klak.timeline.midi\Editor\MidiAnimationTrackEditor.cs" />
-    <Compile Include="Assets\midi\Packages\jp.keijiro.klak.timeline.midi\Editor\MidiControlDrawer.cs" />
-    <Compile Include="Assets\midi\Packages\jp.keijiro.klak.timeline.midi\Editor\MidiDataStreamReader.cs" />
-    <Compile Include="Assets\midi\Packages\jp.keijiro.klak.timeline.midi\Editor\MidiEditorUtility.cs" />
-    <Compile Include="Assets\midi\Packages\jp.keijiro.klak.timeline.midi\Editor\MidiEnvelopeDrawer.cs" />
-    <Compile Include="Assets\midi\Packages\jp.keijiro.klak.timeline.midi\Editor\MidiFileAssetImporter.cs" />
-    <Compile Include="Assets\midi\Packages\jp.keijiro.klak.timeline.midi\Editor\MidiFileAssetImporterEditor.cs" />
-    <Compile Include="Assets\midi\Packages\jp.keijiro.klak.timeline.midi\Editor\MidiFileDeserializer.cs" />
-    <Compile Include="Assets\midi\Packages\jp.keijiro.klak.timeline.midi\Editor\MidiNoteFilterDrawer.cs" />
-    <Compile Include="Assets\midi\Packages\jp.keijiro.klak.timeline.midi\Editor\MidiSignalReceiverEditor.cs" />
-    <None Include="Assets\midi\Packages\jp.keijiro.klak.timeline.midi\Editor\Klak.Timeline.Midi.Editor.asmdef" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Editor\CreateLocatorHere.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/kobayashidaisuke/Desktop/UnityProject/OriginalGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Klak.Timeline.Midi">
+      <HintPath>/Users/kobayashidaisuke/Desktop/UnityProject/OriginalGame/Library/ScriptAssemblies/Klak.Timeline.Midi.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/kobayashidaisuke/Desktop/UnityProject/OriginalGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -88,17 +79,14 @@
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>/Users/kobayashidaisuke/Desktop/UnityProject/OriginalGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Klak.Timeline.Midi.Editor">
+      <HintPath>/Users/kobayashidaisuke/Desktop/UnityProject/OriginalGame/Library/ScriptAssemblies/Klak.Timeline.Midi.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>/Users/kobayashidaisuke/Desktop/UnityProject/OriginalGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>/Users/kobayashidaisuke/Desktop/UnityProject/OriginalGame/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
-    <Reference Include="Klak.Timeline.Midi">
-      <HintPath>/Users/kobayashidaisuke/Desktop/UnityProject/OriginalGame/Library/ScriptAssemblies/Klak.Timeline.Midi.dll</HintPath>
-    </Reference>
-    <Reference Include="Klak.Timeline.Midi.Editor">
-      <HintPath>/Users/kobayashidaisuke/Desktop/UnityProject/OriginalGame/Library/ScriptAssemblies/Klak.Timeline.Midi.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.1.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

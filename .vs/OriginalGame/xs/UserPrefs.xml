@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{3E9F841F-DE5E-EB72-94E5-1B483CC6010E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/Retryscript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/Wallscript.cs">
     <Files>
       <File FileName="Assets/script/NotesTimingMaker.cs" Line="40" Column="31" />
       <File FileName="Assets/script/playerscript.cs" Line="26" Column="6" />
@@ -11,7 +11,8 @@
       <File FileName="Assets/script/enemyscript.cs" Line="7" Column="23" />
       <File FileName="Library/PackageCache/jp.keijiro.klak.timeline.midi@1.0.3/Editor/MidiAnimationAssetEditor.cs" Line="20" Column="1" />
       <File FileName="Assets/script/DestroyScript.cs" Line="19" Column="11" />
-      <File FileName="Assets/script/Retryscript.cs" Line="16" Column="9" />
+      <File FileName="Assets/script/Retryscript.cs" Line="23" Column="10" />
+      <File FileName="Assets/script/Wallscript.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
