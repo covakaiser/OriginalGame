@@ -26,20 +26,20 @@ public class playerscript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             GetComponent<Rigidbody>().velocity += new Vector3(0, jump, 0);
             animator.SetBool("jump", true);
-        }else if(Input.GetKeyUp(KeyCode.UpArrow))
+        }else if(Input.GetKeyUp(KeyCode.Space))
         {
             animator.SetBool("jump", false);
             GetComponent<AudioSource>().Play();
         }
-        if (Input.GetKeyDown(KeyCode.DownArrow))
+        if (Input.GetKey(KeyCode.M))
         {
             animator.SetBool("slide", true);
         }
-        else if (Input.GetKeyUp(KeyCode.DownArrow))
+        else if (Input.GetKeyUp(KeyCode.M))
         {
             animator.SetBool("slide", false);
         }

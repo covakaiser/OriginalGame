@@ -7,7 +7,7 @@ public class Wallscript : MonoBehaviour
 {
     public GameObject wall;
     float timer = 0;
-    float interval = 2.5f;
+    float interval = 5f;
 
     // Start is called before the first frame update
     void Start()
@@ -21,7 +21,7 @@ public class Wallscript : MonoBehaviour
         timer += Time.deltaTime;
         if (timer >= interval)
         {
-            Instantiate(wall, new Vector3(30f,0,30), new Quaternion(0,0,180,0));
+            Instantiate(wall, new Vector3(35f,5,30), new Quaternion(0,0,180,0));
             timer = 0;
         }
     }

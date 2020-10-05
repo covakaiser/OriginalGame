@@ -69,6 +69,7 @@
     <Compile Include="Assets\script\enemyscript.cs" />
     <Compile Include="Assets\script\GameController.cs" />
     <Compile Include="Assets\script\GameUtil.cs" />
+    <Compile Include="Assets\script\movescript.cs" />
     <Compile Include="Assets\script\NotesScript.cs" />
     <Compile Include="Assets\script\NotesTimingMaker.cs" />
     <Compile Include="Assets\script\playerscript.cs" />

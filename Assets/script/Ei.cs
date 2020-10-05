@@ -13,7 +13,7 @@ public class Ei : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.DownArrow))
+        if (Input.GetKeyDown(KeyCode.M))
         {
             GetComponent<AudioSource>().Play();
         }
