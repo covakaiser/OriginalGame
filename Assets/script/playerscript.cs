@@ -9,7 +9,6 @@ public class playerscript : MonoBehaviour
     
     float jump = 10.0f;
     public int playerHP = 5;
-    public GameObject enemy;
 
     public static int score = 0;
     public GameObject scoretext;
@@ -21,6 +20,7 @@ public class playerscript : MonoBehaviour
     {
         GameObject enemy = GameObject.Find("Notes0");
         animator = GetComponent<Animator>();
+        score = 0;
     }
 
     // Update is called once per frame
@@ -30,12 +30,13 @@ public class playerscript : MonoBehaviour
         {
             GetComponent<Rigidbody>().velocity += new Vector3(0, jump, 0);
             animator.SetBool("jump", true);
-        }else if(Input.GetKeyUp(KeyCode.Space))
-        {
-            animator.SetBool("jump", false);
             GetComponent<AudioSource>().Play();
         }
-        if (Input.GetKey(KeyCode.M))
+        else if(Input.GetKeyUp(KeyCode.Space))
+        {
+            animator.SetBool("jump", false);
+        }
+        if (Input.GetKeyDown(KeyCode.M))
         {
             animator.SetBool("slide", true);
         }
@@ -56,12 +57,17 @@ public class playerscript : MonoBehaviour
             playerHP--;
             Destroy(other.gameObject);
             HPtext.GetComponent<Text>().text = "HP:" + playerHP.ToString();
+            
         }
 
         if (other.CompareTag("score"))
         {
             score++;
             scoretext.GetComponent<Text>().text = "Score:" + score.ToString();
+        }
+        if (other.CompareTag("Finish"))
+        {
+            SceneManager.LoadScene("result");
         }
     }
     public static int getScore()

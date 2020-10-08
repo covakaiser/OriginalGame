@@ -26,5 +26,9 @@ public class DestroyScript : MonoBehaviour
         {
             Destroy(other.gameObject);
         }
+        if (other.CompareTag("Finish"))
+        {
+            Destroy(other.gameObject);
+        }
     }
 }

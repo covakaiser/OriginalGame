@@ -23,7 +23,6 @@ public class GameController : MonoBehaviour
     private bool _isPlaying = false;
     public GameObject startButton;
 
-   
     void Start()
     {
         _audioSource = GameObject.Find("GameMusic").GetComponent<AudioSource>();
