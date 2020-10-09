@@ -15,10 +15,11 @@ public class playerscript : MonoBehaviour
     public GameObject HPtext;
     Animator animator;
 
+   // public GameObject headhit;
+
     // Start is called before the first frame update
     void Start()
     {
-        GameObject enemy = GameObject.Find("Notes0");
         animator = GetComponent<Animator>();
         score = 0;
     }
@@ -31,24 +32,27 @@ public class playerscript : MonoBehaviour
             GetComponent<Rigidbody>().velocity += new Vector3(0, jump, 0);
             animator.SetBool("jump", true);
             GetComponent<AudioSource>().Play();
+    //        headhit.SetActive(false);
         }
         else if(Input.GetKeyUp(KeyCode.Space))
         {
             animator.SetBool("jump", false);
+   //         headhit.SetActive(true);
         }
         if (Input.GetKeyDown(KeyCode.M))
         {
             animator.SetBool("slide", true);
+   //         headhit.SetActive(false);
         }
         else if (Input.GetKeyUp(KeyCode.M))
         {
             animator.SetBool("slide", false);
+     //       headhit.SetActive(true);
         }
         if (playerHP == 0)
         {
             SceneManager.LoadScene("Gameover");
         }
-
     }
     public void OnTriggerEnter(Collider other)
     {
@@ -57,7 +61,6 @@ public class playerscript : MonoBehaviour
             playerHP--;
             Destroy(other.gameObject);
             HPtext.GetComponent<Text>().text = "HP:" + playerHP.ToString();
-            
         }
 
         if (other.CompareTag("score"))

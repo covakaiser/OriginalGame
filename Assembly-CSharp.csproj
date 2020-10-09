@@ -70,6 +70,7 @@
     <Compile Include="Assets\script\GameController.cs" />
     <Compile Include="Assets\script\GameUtil.cs" />
     <Compile Include="Assets\script\Goalscript.cs" />
+    <Compile Include="Assets\script\Headscript.cs" />
     <Compile Include="Assets\script\movescript.cs" />
     <Compile Include="Assets\script\NotesScript.cs" />
     <Compile Include="Assets\script\NotesTimingMaker.cs" />

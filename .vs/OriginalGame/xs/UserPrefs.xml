@@ -1,21 +1,23 @@
 ﻿<Properties StartupConfiguration="{3E9F841F-DE5E-EB72-94E5-1B483CC6010E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/Goalscript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/Ei.cs">
     <Files>
+      <File FileName="Assets/Resources/CSV/TestTiming.csv" Line="69" Column="1" IsPinned="True" />
+      <File FileName="Assets/script/GameController.cs" Line="24" Column="35" IsPinned="True" />
+      <File FileName="Assets/script/Headscript.cs" Line="34" Column="1" IsPinned="True" />
+      <File FileName="Assets/script/NotesScript.cs" Line="53" Column="2" />
+      <File FileName="Assets/script/playerscript.cs" Line="50" Column="8" />
+      <File FileName="Assets/script/DestroyScript.cs" Line="29" Column="37" />
       <File FileName="Assets/script/enemyscript.cs" Line="7" Column="21" />
       <File FileName="Assets/script/NotesTimingMaker.cs" Line="40" Column="31" />
-      <File FileName="Assets/script/DestroyScript.cs" Line="27" Column="39" />
-      <File FileName="Assets/Resources/CSV/TestTiming.csv" Line="2" Column="9" />
-      <File FileName="Assets/script/Wallscript.cs" Line="10" Column="23" />
-      <File FileName="Assets/script/playerscript.cs" Line="38" Column="25" />
-      <File FileName="Assets/script/CSVWriter.cs" />
-      <File FileName="Assets/script/NotesScript.cs" />
-      <File FileName="Assets/script/GameUtil.cs" />
+      <File FileName="Assets/script/Wallscript.cs" Line="26" Column="10" />
+      <File FileName="Assets/script/CSVWriter.cs" Line="13" Column="9" />
+      <File FileName="Assets/script/GameUtil.cs" Line="14" Column="19" />
       <File FileName="Assets/script/Retryscript.cs" Line="23" Column="10" />
-      <File FileName="Assets/script/Ei.cs" Line="16" Column="39" />
-      <File FileName="Assets/script/Resultscore.cs" Line="13" Column="1" />
+      <File FileName="Assets/script/Ei.cs" Line="17" Column="10" />
+      <File FileName="Assets/script/Resultscore.cs" Line="37" Column="6" />
       <File FileName="Assets/script/movescript.cs" Line="7" Column="20" />
-      <File FileName="Assets/script/GameController.cs" Line="1" Column="1" />
-      <File FileName="Assets/script/Goalscript.cs" Line="7" Column="1" />
+      <File FileName="Assets/script/Goalscript.cs" Line="10" Column="28" />
+      <File FileName="Assets/script/u.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
