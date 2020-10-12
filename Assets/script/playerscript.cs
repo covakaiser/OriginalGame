@@ -11,17 +11,25 @@ public class playerscript : MonoBehaviour
     public int playerHP = 5;
 
     public static int score = 0;
+    public GameObject hearts1;
+    public GameObject hearts2;
+    public GameObject hearts3;
+    public GameObject hearts4;
+    public GameObject hearts5;
     public GameObject scoretext;
-    public GameObject HPtext;
     Animator animator;
 
-   // public GameObject headhit;
+    AudioSource audioSource;
+    public AudioClip ya;
+    public AudioClip ei;
+    public AudioClip uu;
 
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
         score = 0;
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -31,26 +39,40 @@ public class playerscript : MonoBehaviour
         {
             GetComponent<Rigidbody>().velocity += new Vector3(0, jump, 0);
             animator.SetBool("jump", true);
-            GetComponent<AudioSource>().Play();
-    //        headhit.SetActive(false);
+            audioSource.PlayOneShot(ya);
         }
         else if(Input.GetKeyUp(KeyCode.Space))
         {
             animator.SetBool("jump", false);
-   //         headhit.SetActive(true);
         }
         if (Input.GetKeyDown(KeyCode.M))
         {
             animator.SetBool("slide", true);
-   //         headhit.SetActive(false);
+            audioSource.PlayOneShot(ei);
         }
         else if (Input.GetKeyUp(KeyCode.M))
         {
             animator.SetBool("slide", false);
-     //       headhit.SetActive(true);
+        }
+        if (playerHP == 4)
+        {
+            Destroy(hearts5.gameObject);
+        }
+        if(playerHP == 3)
+        {
+            Destroy(hearts4.gameObject);
+        }
+        if(playerHP == 2)
+        {
+            Destroy(hearts3.gameObject);
+        }
+        if(playerHP == 1)
+        {
+            Destroy(hearts2);
         }
         if (playerHP == 0)
         {
+            Destroy(hearts1.gameObject);
             SceneManager.LoadScene("Gameover");
         }
     }
@@ -60,7 +82,7 @@ public class playerscript : MonoBehaviour
         {
             playerHP--;
             Destroy(other.gameObject);
-            HPtext.GetComponent<Text>().text = "HP:" + playerHP.ToString();
+            audioSource.PlayOneShot(uu);
         }
 
         if (other.CompareTag("score"))
